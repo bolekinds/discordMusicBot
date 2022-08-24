@@ -1,0 +1,19 @@
+{
+	"name": "discordmusicbot",
+    "author": "bolekinds",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "@discordjs/opus": "^0.8.0",
+        "@distube/soundcloud": "^1.2.1",
+        "@distube/spotify": "^1.3.2", 
+        "@distube/yt-dlp": "^1.1.3", 
+        "@distube/ytdl-core": "^4.11.4", 
+        "discord.js": "^14.3.0",
+        "distube": "^4.0.3",
+        "ffmpeg": "^0.0.4",  
+        "ffmpeg-static": "^4.4.1"
+    }
+}
